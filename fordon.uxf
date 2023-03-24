@@ -1,0 +1,37 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><element><id>UMLClass</id><coordinates><x>99</x><y>45</y><w>207</w><h>216</h></coordinates><panel_attributes>main.py
+--
+looping:boolean
+personbils_lista[personbil]
+lastbils_lista[lastbil]
+--
+main()
+print_fordons_listta()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>540</x><y>0</y><w>180</w><h>180</h></coordinates><panel_attributes>Fordon
+--
+fabrikat:str
+color:str
+--
+-init-constructor(fabrikat, color)
+setFabrikat(str)
+getFabrikat():str
+setColor():str
+getColor():str</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>477</x><y>333</y><w>234</w><h>207</h></coordinates><panel_attributes>Personbil
+--
+fabrikat:str
+color:str
+Bagagevolym:int
+--
+_int_constructor(fabikat, color,bagagevolym)
+setBagageVolym(int)
+getBagageVolym():</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>216</x><y>324</y><w>207</w><h>216</h></coordinates><panel_attributes>Lastbil
+--
+fabrikat:str
+color:str
+Flakvolym:int
+--
+_int_constructor(fabrikat, color, bagagevolym)
+setFlakVolym(int)
+getFlakVolym():int
+print_fordon()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>594</x><y>207</y><w>27</w><h>135</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>279</x><y>198</y><w>252</w><h>126</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>260;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>297</x><y>189</y><w>198</w><h>153</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>200;150;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>207</x><y>252</y><w>72</w><h>90</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>50;80;10;10</additional_attributes></element></diagram>
